@@ -30,8 +30,8 @@ public class Calendar_T extends test_base {
 		cd = new Calander();
 	}
 
-	//@Test
-	/*public void verifycalmove() throws InterruptedException {
+	@Test
+	public void verifycalmove() throws InterruptedException {
 	
 		login.userverifylogin();
 		String pagenavigated = driver.getTitle();
@@ -41,5 +41,5 @@ public class Calendar_T extends test_base {
 		Thread.sleep(3000);
 		cd.calendernavigation();
 		cd.MonthYselection("August","2022");
-	}*/
+	}
 }

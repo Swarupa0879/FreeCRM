@@ -14,7 +14,8 @@ public class test_base {
 	public static WebDriver driver;
 	
 	public static void setup() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Downloads\\driver\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Downloads\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Administrator\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://freecrm.com/");
 		driver.manage().window().maximize();

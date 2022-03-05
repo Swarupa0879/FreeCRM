@@ -70,6 +70,8 @@ public class NonPOM {
 
 	}
 	
+	//Converting array list to string
+	
 	public void acomp() {
 		ArrayList<String>studentname=new ArrayList<String>();
 		studentname.add("Swarupa");
